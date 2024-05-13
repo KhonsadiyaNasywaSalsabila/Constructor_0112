@@ -40,5 +40,15 @@ void mahasiswa::printAll()
 }
 
 
+int main()
+{
+	mahasiswa mhs1("Khonsadiya");
+	mahasiswa mhs2("Nasywa");
+	mahasiswa::setNim(20230140121);
+	mahasiswa mhs3("Salsabila");
+	mahasiswa mhs4("Khonsa");
 
+
+
+}
 
