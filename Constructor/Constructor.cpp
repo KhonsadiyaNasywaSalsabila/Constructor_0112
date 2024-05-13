@@ -34,5 +34,21 @@ public:
 		cout << endl << "nim =" << nim << endl;
 		cout << "Nama = " << nama << endl;
 	}
+
 };
+
+int main()
+{
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(12);
+	Mahasiswa mhs3(0, "Khonsa");
+	Mahasiswa mhs4(23, "Khonsa");
+
+	mhs1.cetak();
+	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
+	return 0;
+
+}
 
