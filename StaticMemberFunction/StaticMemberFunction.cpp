@@ -15,7 +15,7 @@ public:
 	void printAll();
 
 	static void setNim(int pNim) { nim = pNim; }
-	static int getNim() { return nim; }
+	static long long int getNim() { return nim; }
 
 	mahasiswa(string pnama)
 	{
@@ -44,7 +44,7 @@ int main()
 {
 	mahasiswa mhs1("Khonsadiya");
 	mahasiswa mhs2("Nasywa");
-	mahasiswa::setNim(20230140121);
+	mahasiswa::setNim; long long(20230140121);
 	mahasiswa mhs3("Salsabila");
 	mahasiswa mhs4("Khonsa");
 
