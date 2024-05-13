@@ -48,6 +48,10 @@ int main()
 	mahasiswa mhs3("Salsabila");
 	mahasiswa mhs4("Khonsa");
 
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
 
 
 }
