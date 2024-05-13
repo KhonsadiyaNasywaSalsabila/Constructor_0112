@@ -12,6 +12,11 @@ public:
 
 	void setId();
 	void printAll();
+	mahasiswa(string pnama)
+	{
+		nama = pnama;
+		setId();
+	}
 
 
 };
