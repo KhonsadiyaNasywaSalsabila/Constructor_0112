@@ -25,3 +25,7 @@ public:
 
 };
 
+int mahasiswa::nim = 20230140112;
+
+
+
